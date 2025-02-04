@@ -13,7 +13,6 @@ body {
 
 img {
   max-width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -36,4 +35,61 @@ button {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+/* END OF RESET */
+
+main {
+  height: 100%;
+  width: 100%;
+  border: 10px solid #999999;
+  background-color: #006caf;
+}
+
+.container {
+  width: 380px;
+  height: 450px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-inline: auto;
+  position: relative;
+}
+
+.image-wrap {
+  height: 45%;
+  width: 100%;
+}
+
+.image-wrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.content {
+  padding: 20px;
+  height: 55%;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  background-color: white;
+}
+
+.content p {
+    margin-top: 15px;
+}
+
+h1 {
+  display: inline;
+}
+
+.tag {
+  position: absolute;
+  padding: 10px;
+  top: 10px;
+  left: -10px;
+  height: 40px;
+  width: 50%;
+  border-radius: 5px 30px 30px 5px;
+  background-color: #454545;
+  color: white;
+  font-size: 0.9rem;
 }
